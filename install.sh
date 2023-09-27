@@ -3,6 +3,7 @@ cd ~/
 mkdir ./.findq
 cd ~/.findq
 mkdir ./lib
+cd ./lib
 find />./library
 printf '#!/bin/bash\nfind />~/.findq/lib/library'>./buildlib
 chmod 777 ./buildlib
